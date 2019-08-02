@@ -4,12 +4,15 @@
 <header>
     <h1 id="title">Survey Form </h1>
     <p id="description">Please leave us feedback on how to improve.</p>
-    <form action id="survey-form" </form> <input type="name" required="" placeholder="Enter Name" id="name" name="name">
+    <form action id="survey-form" </form> <label name="name-label">Enter name here:</label>
+        <input type="name" required="" placeholder="Enter Name" id="name" name="name">
         <br>
         <br>
+        <label name="email-label">Enter email here:</label>
         <input type="email" required=" " placeholder="Enter Email" id="email" email="email">
 
         <br>
         <br>
+        <label name="number-label">Enter age here:</label>
         <input type="number" required=" " placeholder="Enter Age" id="number" name="number" min="10" max="100">
     </form>
