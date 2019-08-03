@@ -2,6 +2,20 @@
 
 <html>
 <header>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 250px;
+        }
+    </style>
     <h1 id="title">Survey Form </h1>
     <p id="description">Please leave us feedback on how to improve.</p>
     <form action id="survey-form" </form> <label id="name-label">Full name:</label>
@@ -23,5 +37,12 @@
             <option value="Full Time Leaner">Full Time Learner</option>
             <option value="Prefer Not To Say">Prefer Not To Say</option>
             <option value="Other">Other</option>
-
+        </select>
+        <br>
+        <br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <br>
+        <input type="radio" name="gender" value="other"> Other
     </form>
