@@ -7,66 +7,71 @@
         font-size: 80px;
         font-family: 'Playfair Display', serif;
     }
-  body {
-     background-color: #88d5e7;
-  }
+
+    body {
+        background-color: #88d5e7;
+    }
+
     p {
         text-align: center;
         font-family: 'Nanum Gothic', sans-serif;
         font-size: 25px;
 
     }
-  
-  form {
-    background-color: white;
-  }
-   .details {
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    font-size: 20px;
-     margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 280px;
-  margin-left: 280px;
-     background-color: white;
-  
 
-  }
-  .gender {
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    font-size: 20px;   
-  margin-right: 280px;
-  margin-left: 280px;
-  background-color: white;
-    
-  }
-  
-  .occupation {
-     font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    font-size: 30px;   
-  margin-right: 280px;
-  margin-left: 280px;
-  background-color: white;
-  }
-  
-  .feedback {
-     font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    font-size: 20px;   
-  margin-right: 280px;
-  margin-left: 280px;
-  background-color: white;
-  }
-  .input {
-     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 20px;   
-  background-color: white;
-    text-align: center;
-      margin-right: 280px;
-  margin-left: 280px;
-  }
+    form {
+        background-color: white;
+    }
+
+    .details {
+        font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 280px;
+        margin-left: 280px;
+        background-color: white;
+
+    }
+
+    .gender {
+        font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 280px;
+        margin-left: 280px;
+        background-color: white;
+
+    }
+
+    .occupation {
+        font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        margin-right: 280px;
+        margin-left: 280px;
+        background-color: white;
+
+    }
+
+    .feedback {
+        font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 280px;
+        margin-left: 280px;
+        background-color: white;
+    }
+
+    .input {
+        font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
+    }
+
+    .submit {
+        text-align: center;
+    }
 </style>
 
 <head>
@@ -103,7 +108,7 @@
         <br>
         <br>
     </div>
-  
+
     <div class="occupation">
         <select id="dropdown" < <option value="Student">Student</option>
             <option value="Full Time Job">Full Time Job</option>
@@ -125,16 +130,16 @@
     </div>
     <br>
     <br>
-<div class="input">
-    <textarea rows="20" cols="75">
-        Enter your comments/suggestions here.
-        </textarea>
-  </div>
-        <br>
-        <br>
+    <div class="input">
+        <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."></textarea>
+    </div>
+    <br>
+    <br>
     <div class="submit">
         <input type="submit">
     </div>
-        </form>
+    </form>
 
 </body>
+
+</html>
