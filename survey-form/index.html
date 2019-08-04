@@ -22,20 +22,23 @@
 </header>
 
 <body>
-    <form action id="survey-form" </form> <label id="name-label">Full name:</label>
-        <input type="name" required="" placeholder="Enter Name" id="name" name="name">
-        <br>
-        <br>
-        <label id="email-label">Enter email here:</label>
-        <input type="email" required=" " placeholder="Enter Email" id="email" email="email">
+    <div class="details">
+        <form action id="survey-form" </form> <label id="name-label">Full name:</label>
+            <input type="name" required="" placeholder="Enter Name" id="name" name="name">
 
-        <br>
-        <br>
-        <label id="number-label">Enter age here:</label>
-        <input type="number" required=" " placeholder="Enter Age" id="number" name="number" min="10" max="100">
-        <br>
-        <br>
+            <br>
+            <br>
+            <label id="email-label">Enter email here:</label>
+            <input type="email" required=" " placeholder="Enter Email" id="email" email="email">
 
+            <br>
+            <br>
+            <label id="number-label">Enter age here:</label>
+            <input type="number" required=" " placeholder="Enter Age" id="number" name="number" min="10" max="100">
+            <br>
+            <br>
+    </div>
+    <div class="gender">
         <input type="radio" name="gender" value="male"> Male<br>
 
         <input type="radio" name="gender" value="female"> Female<br>
@@ -43,6 +46,8 @@
         <input type="radio" name="gender" value="other"> Other
         <br>
         <br>
+    </div>
+    <div class="occupation">
         <select id="dropdown" < <option value="Student">Student</option>
             <option value="Full Time Job">Full Time Job</option>
             <option value="Full Time Leaner">Full Time Learner</option>
@@ -57,12 +62,14 @@
 
         <input type="checkbox" name="option3" value="Style"> Page style<br>
         </input>
-        <br>
-        <br>
-        <textarea rows="12" cols="50">
+    </div>
+    <br>
+    <br>
+    <textarea rows="12" cols="50">
   Enter your comments/suggestions here. 
 </textarea>
-        <br>
-        <input type="submit">
+    <br>
+    <br>
+    <input type="submit">
     </form>
 </body>
