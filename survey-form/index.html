@@ -4,18 +4,21 @@
 <style>
     h1 {
         text-align: center;
+        font-size: 80px;
+        font-family: 'Playfair Display', serif;
     }
 
     p {
         text-align: center;
-    }
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 25px;
 
-    form {
-        margin: 0 auto;
-        width: 450px;
-        text-align: left;
     }
 </style>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Playfair+Display&display=swap" rel="stylesheet">
+</head>
 <header>
     <h1 id="title">Survey Form </h1>
     <p id="description">Please let me know how I could improve my HTML skills.</p>
@@ -54,22 +57,26 @@
             <option value="Prefer Not To Say">Prefer Not To Say</option>
             <option value="Other">Other</option>
         </select>
-        <br>
-        <br>
+    </div>
+    <br>
+    <br>
+    <div class="feedback">
         <input type="checkbox" name="option1" value="Layout">Code layout.
         <br>
         <input type="checkbox" name="option2" value="Content"> Content of page.<br>
 
         <input type="checkbox" name="option3" value="Style"> Page style<br>
         </input>
+
     </div>
     <br>
     <br>
-    <textarea rows="12" cols="50">
-  Enter your comments/suggestions here. 
-</textarea>
-    <br>
-    <br>
-    <input type="submit">
-    </form>
+    <div class="feedbackbox" <textarea rows="12" cols="50">
+        Enter your comments/suggestions here.
+        </textarea>
+        <br>
+        <br>
+        <input type="submit">
+        </form>
+    </div>
 </body>
