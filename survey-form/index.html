@@ -72,6 +72,13 @@
     .submit {
         text-align: center;
     }
+
+    .break1 {
+        background-color: white;
+        margin-right: 280px;
+        margin-left: 280px;
+
+    }
 </style>
 
 <head>
@@ -86,7 +93,6 @@
     <div class="details">
         <form action id="survey-form" </form> <label id="name-label">Full name:</label>
             <input type="name" required="" placeholder="Enter Name" id="name" name="name">
-
             <br>
             <br>
             <label id="email-label">Enter email here:</label>
@@ -96,49 +102,53 @@
             <br>
             <label id="number-label">Enter age here:</label>
             <input type="number" required=" " placeholder="Enter Age" id="number" name="number" min="10" max="100">
+            <div class="break1">
+                <br>
+                <br>
+            </div>
+            <div class="gender">
+                <input type="radio" name="gender" value="male"> Male<br>
+
+                <input type="radio" name="gender" value="female"> Female<br>
+
+                <input type="radio" name="gender" value="other"> Other
+                <br>
+                <br>
+            </div>
+
+            <div class="occupation">
+                <select id="dropdown" < <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Leaner">Full Time Learner</option>
+                    <option value="Prefer Not To Say">Prefer Not To Say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="break2">
+                <br>
+                <br>
+            </div>
+            <div class="feedback">
+                <input type="checkbox" name="option1" value="Layout">Code layout.
+                <br>
+                <input type="checkbox" name="option2" value="Content"> Content of page.<br>
+
+                <input type="checkbox" name="option3" value="Style"> Page style<br>
+                </input>
+
+            </div>
             <br>
             <br>
-    </div>
-    <div class="gender">
-        <input type="radio" name="gender" value="male"> Male<br>
-
-        <input type="radio" name="gender" value="female"> Female<br>
-
-        <input type="radio" name="gender" value="other"> Other
-        <br>
-        <br>
-    </div>
-
-    <div class="occupation">
-        <select id="dropdown" < <option value="Student">Student</option>
-            <option value="Full Time Job">Full Time Job</option>
-            <option value="Full Time Leaner">Full Time Learner</option>
-            <option value="Prefer Not To Say">Prefer Not To Say</option>
-            <option value="Other">Other</option>
-        </select>
-    </div>
-    <br>
-    <br>
-    <div class="feedback">
-        <input type="checkbox" name="option1" value="Layout">Code layout.
-        <br>
-        <input type="checkbox" name="option2" value="Content"> Content of page.<br>
-
-        <input type="checkbox" name="option3" value="Style"> Page style<br>
-        </input>
-
-    </div>
-    <br>
-    <br>
-    <div class="input">
-        <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."></textarea>
-    </div>
-    <br>
-    <br>
-    <div class="submit">
-        <input type="submit">
-    </div>
-    </form>
+            <div class="input">
+                <textarea id="comments" class="input-field" name="comment"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+            <br>
+            <br>
+            <div class="submit">
+                <input type="submit">
+            </div>
+        </form>
 
 </body>
 
