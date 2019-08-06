@@ -50,7 +50,7 @@
     .occupation {
         font-family: 'Nanum Gothic', sans-serif;
         text-align: center;
-        font-size: 30px;
+        font-size: 50px;
         background-color: white;
 
     }
@@ -81,8 +81,9 @@
 </header>
 
 <body>
-    <div class="details">
-        <form action id="survey-form" </form> <label id="name-label">Full name:</label>
+    <form id="survey-form">
+        <div class="details">
+            <label id="name-label">Full name:</label>
             <input type="name" required="" placeholder="Enter Name" id="name" name="name">
             <br>
             <br>
@@ -93,10 +94,10 @@
             <br>
             <label id="number-label">Enter age here:</label>
             <input type="number" required=" " placeholder="Enter Age" id="number" name="number" min="10" max="100">
-            <div class="break1">
-                <br>
-                <br>
-            </div>
+
+            <br>
+            <br>
+
             <div class="gender">
                 <input type="radio" name="gender" value="male"> Male<br>
 
@@ -115,10 +116,10 @@
                     <option value="Other">Other</option>
                 </select>
             </div>
-            <div class="break2">
-                <br>
-                <br>
-            </div>
+
+            <br>
+            <br>
+
 
             <input type="checkbox" name="option1" value="frontend">Front-End Projects.
             <br>
@@ -133,23 +134,19 @@
             <input type="checkbox" name="option7" value="citymeet">City Meet Ups.<br>
             <input type="checkbox" name="option8" value="wiki">Wiki<br>
             <input type="checkbox" name="option9" value="foru">Forum<br>
-
-
             </input>
 
-    </div>
-    <br>
-    <br>
-    <div class="input">
-        <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."
-            style="margin: 0px; width: 478px; height: 92px;"></textarea>
-
-    </div>
-    <br>
-    <br>
-    <div class="submit">
-        <input type="submit">
-    </div>
+        </div>
+        <br>
+        <br>
+        <div class="input">
+            <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."
+                style="margin: 0px; width: 478px; height: 92px;"></textarea>
+            <br>
+            <br>
+            <div class="submit">
+                <button id="submit" type="submit">Submit</button>
+            </div>
     </form>
 
 </body>
