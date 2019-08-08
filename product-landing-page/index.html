@@ -13,8 +13,8 @@
         text-align: center;
     }
 
-    .nav1 {
-        font-size: 50px;
+    .divcontainer {
+        font-size: 20px;
     }
 </style>
 
@@ -62,6 +62,15 @@
 <body>
     <div class="enteremail">
         <form id="survey-form">
-            <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" size="40" required="">
+            <br>
+            <br>
+            <input type="text" id="name" name="name" required minlength="4" maxlength="28" size="40"
+                placeholder="Enter your name here">
+            <br>
+            <br>
+            <input type="number" id="number" name="number" required minlength="11" size="40"
+                placeholder="Enter your telephone number" required="">
     </div>
+
     </form>
