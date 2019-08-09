@@ -1,154 +1,80 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<html>
 <style>
-    h1 {
+    .header {
+        font-family: 'Merriweather', serif;
         text-align: center;
-        font-size: 70px;
+        font-size: 30px;
+    }
+
+    .p1 {
+        text-align: center;
         font-family: 'Playfair Display', serif;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 0px;
-        margin-left: 0px;
     }
 
-    body {
-        background-color: #88d5e7;
-        margin-top: 100px;
-        margin-bottom: 10px;
-        margin-right: 500px;
-        margin-left: 500px;
-    }
-
-    p {
+    .enteremail {
         text-align: center;
-        font-family: 'Nanum Gothic', sans-serif;
-        font-size: 25px;
-
+        font-family: 'Playfair Display', serif;
     }
 
-    form {
-        background-color: white;
-
+    .divcontainer {
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
     }
 
-    .details {
-        font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
+    .links {
+        font-family: 'Playfair Display', serif;
         font-size: 20px;
-        background-color: white;
-    }
-
-    .gender {
-        font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
-        font-size: 20px;
-        background-color: white;
-
-    }
-
-    .occupation {
-        font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
-        font-size: 50px;
-        background-color: white;
-
-    }
-
-    .feedback {
-        font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
-        font-size: 20px;
-        background-color: white;
-    }
-
-    .input {
-        font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
-    }
-
-    .submit {
-        text-align: center;
     }
 </style>
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Playfair+Display&display=swap" rel="stylesheet">
-</head>
-<header>
-    <h1 id="title">Survey Form </h1>
-    <p id="description">Let us know how we could improve freeCodeCamp.</p>
+
+<html>
+
+<header id="header">
+    <div class="header">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap"
+            rel="stylesheet">
+        <div class="header-img">
+            <img id="header-img" src="images/trombone.png" alt="trombone logo">
+            </img>
+        </div>
+
+
+
+        <h1 id="header">Welcome to Original Trombones.</h1>
+    </div>
+    <div class="links">
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#howitworks">How it works</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+    </div>
+    </nav>
+
 </header>
 
-<body>
-    <form id="survey-form">
-        <div class="details">
-            <label id="name-label">Full name:</label>
-            <input type="name" required="" placeholder="Enter Name" id="name" name="name">
-            <br>
-            <br>
-            <label id="email-label">Enter email here:</label>
-            <input type="email" required=" " placeholder="Enter Email" id="email" email="email">
 
-            <br>
-            <br>
-            <label id="number-label">Enter age here:</label>
-            <input type="number" required=" " placeholder="Enter Age" id="number" name="number" min="10" max="100">
+<div class="divcontainer">
+    <div class="p1">
+        <p id="description"> Hand crafted, home-made masterpieces.</p>
+    </div>
 
-            <br>
-            <br>
+    <body>
+        <div class="enteremail">
+            <form id="survey-form">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" size="46"
+                    required="">
 
-            <div class="gender">
-                <input type="radio" name="gender" value="male"> Male<br>
-
-                <input type="radio" name="gender" value="female"> Female<br>
-
-                <input type="radio" name="gender" value="other"> Other
-                <br>
-                <br>
-            </div>
-
-            <div class="occupation">
-                <select id="dropdown" < <option value="Student">Student</option>
-                    <option value="Full Time Job">Full Time Job</option>
-                    <option value="Full Time Leaner">Full Time Learner</option>
-                    <option value="Prefer Not To Say">Prefer Not To Say</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-
-            <br>
-            <br>
-
-
-            <input type="checkbox" name="option1" value="frontend">Front-End Projects.
-            <br>
-            <input type="checkbox" name="option2" value="backend"> Back-end Projects.<br>
-
-            <input type="checkbox" name="option3" value="datavis"> Data Visualization.<br>
-
-            <input type="checkbox" name="option3" value="challenges">Challenges.<br>
-            <input type="checkbox" name="option4" value="opensource">Open Source Community.<br>
-            <input type="checkbox" name="option5" value="gitter"> Gitter Help Rooms.<br>
-            <input type="checkbox" name="option6" value="videos">Videos.<br>
-            <input type="checkbox" name="option7" value="citymeet">City Meet Ups.<br>
-            <input type="checkbox" name="option8" value="wiki">Wiki<br>
-            <input type="checkbox" name="option9" value="foru">Forum<br>
-            </input>
 
         </div>
-        <br>
-        <br>
-        <div class="input">
-            <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."
-                style="margin: 0px; width: 478px; height: 92px;"></textarea>
-            <br>
-            <br>
-            <div class="submit">
-                <button id="submit" type="submit">Submit</button>
-            </div>
-    </form>
 
-</body>
-
-</html>
+        </form>
