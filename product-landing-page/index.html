@@ -1,189 +1,197 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+
 
 <html>
-  <style>
+<style>
     .header {
-      font-family: "Playfair Display", serif;
-      text-align: center;
-      font-size: 30px;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        font-size: 30px;
     }
 
     .p1 {
-      text-align: center;
-      font-family: "Quicksand", sans-serif;
+        text-align: center;
+        font-family: "Quicksand", sans-serif;
     }
 
     .enteremail {
-      text-align: center;
-      font-family: "Quicksand", sans-serif;
+        text-align: center;
+        font-family: "Quicksand", sans-serif;
     }
 
     .divcontainer {
-      font-size: 30px;
-      font-family: "Quicksand", sans-serif;
+        font-size: 30px;
+        font-family: "Quicksand", sans-serif;
     }
 
     .links {
-      font-family: "Quicksand", sans-serif;
-      font-size: 20px;
-      text-align: center;
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        text-align: center;
     }
 
     nav ul {
-      padding: 0;
-      margin: 0;
+        padding: 0;
+        margin: 0;
     }
 
     nav ul li {
-      display: inline-block;
-      list-style-type: none;
-      margin: 0;
-      padding: 10px 0;
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0;
     }
 
     .video {
-      text-align: center;
+        text-align: center;
     }
 
     .submitbutton {
-      text-align: center;
+        text-align: center;
     }
 
     .h2 {
-      text-align: center;
-      font-size: 20px;
+        text-align: center;
+        font-size: 20px;
     }
 
     .p2 {
-      text-align: center;
-      font-size: 17px;
+        text-align: center;
+        font-size: 17px;
     }
 
     .h3 {
-      text-align: center;
-      font-size: 25px;
+        text-align: center;
+        font-size: 25px;
     }
 
     .p3 {
-      text-align: center;
-      font-size: 17px;
+        text-align: center;
+        font-size: 17px;
     }
 
     .h4 {
-      text-align: center;
-      font-size: 30px;
+        text-align: center;
+        font-size: 30px;
     }
 
     .p4 {
-      text-align: center;
-      font-size: 17px;
+        text-align: center;
+        font-size: 17px;
     }
-  </style>
 
-  <header id="header">
-    <div class="links">
-      <nav id="nav-bar">
-        <ul>
-          <li>
-            <a class="nav-link" href="#features">Features</a>
-          </li>
-          |
-          <li>
-            <a class="nav-link" href="#howitworks">How it works</a>
-          </li>
-          |
-          <li>
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    body {
+        background-color: #484c7f;
+        margin: 0px;
+    }
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap"
-      rel="stylesheet"
-    />
+    .foreground {
+        background-color: white;
+        margin: 0% 20% 0% 20%;
 
-    <div class="header">
-      <div class="header-img">
-        <img id="header-img" src="images/trombone.png" alt="trombone logo" />
-      </div>
+    }
 
-      <h1 id="header">Welcome to Original Trombones.</h1>
-    </div>
-  </header>
+    .header-img {
+        padding-top: 15px;
+    }
+</style>
 
-  <body>
-    <div class="divcontainer">
-      <div class="p1">
-        <p id="description">Hand crafted, home-made masterpieces.</p>
-      </div>
+<body>
 
-      <div class="enteremail">
-        <form id="survey-form">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="Enter your email address"
-            size="46"
-            required=""
-          />
+    <div class="foreground">
+        <header id="header">
 
-          <div class="submitbutton">
-            <input type="button" value="Submit" />
-          </div>
-        </form>
-      </div>
-      <div class="h2">
-        <h2 id="h2">Premium Quality Materials.</h2>
-      </div>
-      <div class="p2">
-        <p2 id="p2"
-          >Hand picked materials of the highest quality sourced locally by our
-          artisans</p2
-        >
-        <br />
-        <br />
-        <div class="h3">
-          <h3 id="h3">Fast Shipping.</h3>
-        </div>
-        <div class="p3">
-          <p3 id="p3"
-            >Shipping is immediate after we have completed your product and we
-            offer free returns if you aren't happy with your purchase.
-          </p3>
+            <div class="links">
+                <nav id="nav-bar">
+                    <div class="header-img">
+                        <img id="header-img" src="images/trombone.png" alt="trombone logo" />
+                    </div>
 
-          <br />
-          <br />
-          <div class="h4">
-            <h4 id="h4">Supreme quality.</h4>
-          </div>
-          <div class="p4">
-            <p4 id="p4"
-              >Every piece is checked to the highest standard to ensure a
-              superior product you won't find elsewhere.</p4
-            >
+                    <ul>
 
-            <br />
-            <br />
-
-            <div class="video">
-              <iframe
-                id="video"
-                name="video"
-                allowfullscreen
-                height="360"
-                width="640"
-                src="https://www.youtube.com/embed/gOml2dRbyyk"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+                        <li>
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        |
+                        <li>
+                            <a class="nav-link" href="#howitworks">How it works</a>
+                        </li>
+                        |
+                        <li>
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-          </div>
+
+            <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap"
+                rel="stylesheet" />
+
+            <div class="header">
+
+
+                <h1 id="header">Welcome to Original Trombones.</h1>
+            </div>
+        </header>
+
+        <div class="divcontainer">
+            <div class="p1">
+                <p id="description">Hand crafted, home-made masterpieces.</p>
+            </div>
+
+            <div class="enteremail">
+                <form id="survey-form">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" size="46"
+                        required="" />
+
+                    <div class="submitbutton">
+                        <input type="button" value="Submit" />
+                    </div>
+                </form>
+            </div>
         </div>
-      </div>
+        <div class="h2">
+            <h2 id="h2">Premium Quality Materials.</h2>
+        </div>
+        <div class="p2">
+            <p2 id="p2">Hand picked materials of the highest quality sourced locally by our
+                artisans</p2>
+
+
+            <br />
+            <br />
+            <div class="h3">
+                <h3 id="h3">Fast Shipping.</h3>
+            </div>
+            <div class="p3">
+                <p3 id="p3">Shipping is immediate after we have completed your product and we
+                    offer free returns if you aren't happy with your purchase.
+                </p3>
+
+                <br />
+                <br />
+                <div class="h4">
+                    <h4 id="h4">Supreme quality.</h4>
+                </div>
+                <div class="p4">
+                    <p4 id="p4">Every piece is checked to the highest standard to ensure a
+                        superior product you won't find elsewhere.</p4>
+
+                    <br />
+                    <br />
+
+                    <div class="video">
+                        <iframe id="video" name="video" allowfullscreen height="360" width="640"
+                            src="https://www.youtube.com/embed/gOml2dRbyyk" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
+    </div>
+
+</body>
+
 </html>
