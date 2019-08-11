@@ -1,100 +1,105 @@
 <!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 
 
 <html>
-<style>
-    .header {
-        font-family: "Playfair Display", serif;
-        text-align: center;
-        font-size: 30px;
-    }
 
-    .p1 {
-        text-align: center;
-        font-family: "Quicksand", sans-serif;
-    }
+<head>
 
-    .enteremail {
-        text-align: center;
-        font-family: "Quicksand", sans-serif;
-    }
+    <style>
+        .header {
+            font-family: "Playfair Display", serif;
+            text-align: center;
+            font-size: 30px;
+        }
 
-    .divcontainer {
-        font-size: 30px;
-        font-family: "Quicksand", sans-serif;
-    }
+        .p1 {
+            text-align: center;
+        }
 
-    .links {
-        font-family: "Quicksand", sans-serif;
-        font-size: 20px;
-        text-align: center;
-    }
+        .enteremail {
+            text-align: center;
+        }
 
-    nav ul {
-        padding: 0;
-        margin: 0;
-    }
+        .divcontainer {
+            font-size: 30px;
+        }
 
-    nav ul li {
-        display: inline-block;
-        list-style-type: none;
-        margin: 0;
-        padding: 10px 0;
-    }
+        .links {
+            font-size: 20px;
+            text-align: center;
+        }
 
-    .video {
-        text-align: center;
-    }
+        nav ul {
+            padding: 0;
+            margin: 0;
+        }
 
-    .submitbutton {
-        text-align: center;
-    }
+        nav ul li {
+            display: inline-block;
+            list-style-type: none;
+            margin: 0;
+            padding: 10px 0;
+        }
 
-    .h2 {
-        text-align: center;
-        font-size: 20px;
-    }
+        .video {
+            text-align: center;
+        }
 
-    .p2 {
-        text-align: center;
-        font-size: 17px;
-    }
+        .submitbutton {
+            text-align: center;
+        }
 
-    .h3 {
-        text-align: center;
-        font-size: 25px;
-    }
+        .h2 {
+            text-align: center;
+            font-size: 20px;
+        }
 
-    .p3 {
-        text-align: center;
-        font-size: 17px;
-    }
+        .p2 {
+            text-align: center;
+            font-size: 17px;
+        }
 
-    .h4 {
-        text-align: center;
-        font-size: 30px;
-    }
+        .h3 {
+            text-align: center;
+            font-size: 25px;
+        }
 
-    .p4 {
-        text-align: center;
-        font-size: 17px;
-    }
+        .p3 {
+            text-align: center;
+            font-size: 17px;
+        }
 
-    body {
-        background-color: #484c7f;
-        margin: 0px;
-    }
+        .h4 {
+            text-align: center;
+            font-size: 30px;
+        }
 
-    .foreground {
-        background-color: white;
-        margin: 0% 20% 0% 20%;
+        .p4 {
+            text-align: center;
+            font-size: 17px;
+        }
 
-    }
+        body {
+            background-color: #484c7f;
+            margin: 0px;
+            font-family: "Quicksand", sans-serif;
+        }
 
-    .header-img {
-        padding-top: 15px;
-    }
-</style>
+        .foreground {
+            background-color: white;
+            margin: 0% 20% 0% 20%;
+
+        }
+
+        .header-img {
+            padding-top: 15px;
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet" />
+</head>
 
 <body>
 
@@ -124,9 +129,6 @@
                 </nav>
             </div>
 
-            <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap"
-                rel="stylesheet" />
-
             <div class="header">
 
 
@@ -145,7 +147,7 @@
                         required="" />
 
                     <div class="submitbutton">
-                        <input type="button" value="Submit" />
+                        <input type="submit" value="Submit" />
                     </div>
                 </form>
             </div>
@@ -156,10 +158,6 @@
         <div class="p2">
             <p2 id="p2">Hand picked materials of the highest quality sourced locally by our
                 artisans</p2>
-
-
-            <br />
-            <br />
             <div class="h3">
                 <h3 id="h3">Fast Shipping.</h3>
             </div>
@@ -167,29 +165,21 @@
                 <p3 id="p3">Shipping is immediate after we have completed your product and we
                     offer free returns if you aren't happy with your purchase.
                 </p3>
-
-                <br />
-                <br />
-                <div class="h4">
-                    <h4 id="h4">Supreme quality.</h4>
-                </div>
-                <div class="p4">
-                    <p4 id="p4">Every piece is checked to the highest standard to ensure a
-                        superior product you won't find elsewhere.</p4>
-
-                    <br />
-                    <br />
-
-                    <div class="video">
-                        <iframe id="video" name="video" allowfullscreen height="360" width="640"
-                            src="https://www.youtube.com/embed/gOml2dRbyyk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
+            </div>
+            <div class="h4">
+                <h4 id="h4">Supreme quality.</h4>
+            </div>
+            <div class="p4">
+                <p4 id="p4">Every piece is checked to the highest standard to ensure a
+                    superior product you won't find elsewhere.</p4>
+            </div>
+            <div class="video">
+                <iframe id="video" name="video" allowfullscreen height="360" width="640"
+                    src="https://www.youtube.com/embed/gOml2dRbyyk" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
-    </div>
     </div>
 
 </body>
