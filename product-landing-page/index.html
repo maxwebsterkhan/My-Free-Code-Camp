@@ -1,51 +1,63 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<html>
 <style>
     .header {
+        font-family: 'Playfair Display', serif;
         text-align: center;
+        font-size: 30px;
     }
 
     .p1 {
         text-align: center;
+        font-family: 'Quicksand', sans-serif;
     }
 
     .enteremail {
         text-align: center;
+        font-family: 'Quicksand', sans-serif;
     }
 
     .divcontainer {
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .links {
+        font-family: 'Quicksand', sans-serif;
         font-size: 20px;
     }
+  .video {
+    text-align: center;
+  }
 </style>
 
-
-<html>
-
 <header id="header">
-    <div class="header">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet">
 
+    <div class="header">
         <div class="header-img">
             <img id="header-img" src="images/trombone.png" alt="trombone logo">
             </img>
         </div>
 
-
-
         <h1 id="header">Welcome to Original Trombones.</h1>
     </div>
-    <nav id="nav-bar">
-        <ul>
-            <li>
-                <a class="nav-link" href="#features">Features</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#howitworks">How it works</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-        </ul>
-        </div>
+
+    <div class="links">
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#howitworks">How it works</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+    </div>
     </nav>
 
 </header>
@@ -56,13 +68,19 @@
         <p id="description"> Hand crafted, home-made masterpieces.</p>
     </div>
 
-    <body>
-        <div class="enteremail">
-            <form id="survey-form">
-                <input name="email" id="email" type="email" placeholder="Enter your email address" size="40"
-                    required="">
+
+    <div class="enteremail">
+        <form id="survey-form">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" size="46" required="">
 
 
-        </div>
+    </div>
 
-        </form>
+    </form>
+  <br>
+<div class="video">
+   <iframe id="video" src="https://youtu.be/y8Yv4pnO7qc"
+   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+</html>
