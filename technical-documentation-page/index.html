@@ -3,37 +3,47 @@
 
 <!DOCTYPE html>
 <html>
-
 <style>
+ body {text-align: center;}
+
+
+#navbar {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    background:white;
+    padding:0;
+    border-width: 1px;
+}
 
 </style>
 
-
-
 <nav id="navbar">
     <header id="title"> HTML Documentation Page </header>
+    <ul style="list-style-type: none;">
+        <div class="section1">
+            <li><a class="nav-link" href="#HTML_INTRODUCTION">HTML Introduction</a></li>
+        </div>
 
-    <div class="section1">
-        <a class="nav-link" href="#HTML_INTRODUCTION">HTML Introduction</a>
-    </div>
+        <div class="section2">
+            <li><a class="nav-link" href="#HTML_VERSIONS">HTML Versions</a></li>
+        </div>
 
-    <div class="section2">
-        <a class="nav-link" href="#HTML_VERSIONS">HTML Versions</a>
-    </div>
+        <div class="section3">
+            <li> <a class="nav-link" href="#HTML_MARK_UP">HTML Mark Up</a></li>
+        </div>
 
-    <div class="section3">
-        <a class="nav-link" href="#HTML_MARK_UP">HTML Mark Up</a>
-    </div>
+        <div class="section4">
+            <li> <a class="nav-link" href="#HTML_ELEMENTS">HTML Elements</a></li>
+        </div>
 
-    <div class="section4">
-        <a class="nav-link" href="#HTML_ELEMENTS">HTML Elements</a>
-    </div>
-
-    <div class="section5">
-        <a class="nav-link" href="#HTML_ATTRIBUTES">HTML Attributes</a>
-    </div>
+        <div class="section5">
+            <li> <a class="nav-link" href="#HTML_ATTRIBUTES">HTML Attributes</a></li>
+        </div>
+    </ul>
 </nav>
 <hr>
+<body>
 <main id="main-doc">
     <section id="HTML_INTRODUCTION">
         <section class="main-section" id="HTML_INTRODUCTION">
@@ -50,7 +60,7 @@
             <header id="HTML_VERSIONS">HTML Versions</header>
             <article>
                 <h3>Versions of HTML</h3>
-                <ul>
+                <ul style="list-style-type: none;">
                     <p>
                         <li>HTML 2
                             November 24, 1995</li>
@@ -147,3 +157,4 @@
                             </p>
                         </article>
                     </section>
+                </body>
