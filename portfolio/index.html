@@ -2,14 +2,51 @@
 
 <style>
     .flex-container {
-        justify-content: center;
-        flex-direction: row;
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
-    #projectcard {
-      text-align: center;
+    .project-tile {
+        position: relative;
+        width: 300px;
+        min-width: 300px;
+        height: 170px;
+        margin: 5px;
+        background-color: white;
+        overflow: hidden;
     }
+
+    #h1title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #h2title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .introduction {
+
+        text-align: center;
+    
+
+        button {
+            margin-top: 30px;
+            padding: 5px 20px 5px 20px;
+            height: 50px;
+            background-color: transparent;
+            font-size: .25em;
+            color: white;
+            border: 2px solid white;
+            border-radius: 30px;
+            outline: none;
+            transition: 0.3s;
+        }
+        }
 </style>
 
 <!DOCTYPE html>
@@ -20,24 +57,26 @@
             <li><a class="nav-link" href="#welcome-section">Home</a></li>
             <li><a class="nav-link" href="#projects">Projects</a></li>
             <li><a class="nav-link" href="#contact">Contact</a></li>
-            <h1>M.W.K<i>portfolio</i></h1>
+            <h1 id="logo">M.W.K<i>portfolio</i></h1>
         </ul>
     </nav>
 </section>
 
 <section id="welcome-section">
-    <h1 id="h1title">Hello, my name is Max.</h1>
-    <h2 id="h2title">Welcome to my portfolio!</h2>
-    <a href="#projects"><button>Find my projects here</button></a>
+    <div class="introduction">
+        <h1 id="h1title">Hello, my name is Max.</h1>
+        <h2 id="h2title">Welcome to my portfolio!</h2>
+        <div class="button1"><a href="#projects"><button>Find my projects here</button></a></div>
+    </div>
 </section>
 <section id="projects">
     <br>
     <div class="flex-container">
         <div>
             <article class="project-tile">
-                <a href="https://codepen.io/maxwebster-khan/pen/JgWjvy" target="_blank"> <img class="projectcard"
+                <a href="https://codepen.io/maxwebster-khan/pen/JgWjvy" target="_blank"> <img
                         src="https://screenshot.codepen.io/3437741.JgWjvy.small.f768d8e7-7492-4604-90ba-4efd3e004cdc.png"
-                        style="width:40%;height:30%;" alt="project1">
+                        alt="project1">
                 </a>
             </article>
         </div>
@@ -45,25 +84,25 @@
 
         <div>
             <article class="project-tile">
-                <a href="https://codepen.io/maxwebster-khan/pen/XvedLq" target="_blank"> <img class="projectcard"
+                <a href="https://codepen.io/maxwebster-khan/pen/XvedLq" target="_blank"> <img
                         src="https://screenshot.codepen.io/3437741.XvedLq.small.c92cb7d2-252c-432b-856b-fef6f61844b1.png"
-                        style="width:40%;height:30%;" alt="project2"></a>
+                        alt="project2"></a>
             </article>
         </div>
         <br>
         <div>
             <article class="project-tile">
-                <a href="https://codepen.io/maxwebster-khan/pen/NQyQXj" target="_blank"> <img class="projectcard"
+                <a href="https://codepen.io/maxwebster-khan/pen/NQyQXj" target="_blank"> <img
                         src="https://screenshot.codepen.io/3437741.NQyQXj.small.6abf8137-9071-45e0-8c4b-b7c7b1c9df1d.png"
-                        style="width:40%;height:30%;" alt="project3"></a>
+                        alt="project3"></a>
             </article>
         </div>
         <br>
         <div>
             <article class="project-tile">
-                <a href="https://codepen.io/maxwebster-khan/pen/rXWEXY" target="_blank"> <img class="projectcard"
+                <a href="https://codepen.io/maxwebster-khan/pen/rXWEXY" target="_blank"> <img
                         src="https://screenshot.codepen.io/3437741.rXWEXY.small.8701c36d-bccc-4c20-8646-caf3c31da35d.png"
-                        style="width:40%;height:30%;" alt="project4"></a>
+                        alt="project4"></a>
             </article>
         </div>
     </div>
