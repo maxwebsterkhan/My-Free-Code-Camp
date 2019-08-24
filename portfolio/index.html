@@ -33,18 +33,8 @@
         text-align: center;
     }
 
-    .navcontainer {
-        position: absolute;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 60px;
-        background-color: grey;
-
+    article {
+        box-sizing: border-box;
     }
 
     ul {
@@ -52,14 +42,18 @@
         list-style: none;
         justify-content: center;
     }
-    
-    i {
-    margin: 0;
-    padding: 0;
-    display: block;
-    font-size: 0.3em;
-  }
- 
+
+    .navcontainer {
+        position: relative;
+        min-width: 300px;
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: aqua;
+        background-size: cover;
+
+    }
+
 </style>
 
 <!DOCTYPE html>
@@ -69,11 +63,11 @@
     <div class="navcontainer">
         <nav class="navbar">
             <ul class="menu">
-                    <h1 id="logo">M.W.K<i>portfolio</i></h1>
                 <li><a class="nav-link" href="#welcome-section">Home</a></li>
                 <li><a class="nav-link" href="#projects">Projects</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
-                
+                <h1 id="logo">M.W.K<i>portfolio</i></h1>
+
             </ul>
         </nav>
     </div>
