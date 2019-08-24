@@ -32,21 +32,43 @@
     .introduction {
         text-align: center;
     }
+
+    .navcontainer {
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        background-color: grey;
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
 </style>
 
 <!DOCTYPE html>
 <html>
-<section id="welcome-section">
-    <nav id="navbar">
-        <ul class="menu">
-            <li><a class="nav-link" href="#welcome-section">Home</a></li>
-            <li><a class="nav-link" href="#projects">Projects</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-            <h1 id="logo">M.W.K<i>portfolio</i></h1>
-        </ul>
-    </nav>
-</section>
 
+<section id="welcome-section">
+    <div class="navcontainer">
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a class="nav-link" href="#welcome-section">Home</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</section>
+<h1 id="logo">M.W.K<i>portfolio</i></h1>
 <section id="welcome-section">
     <div class="introduction">
         <h1 id="h1title">Hello, my name is Max.</h1>
