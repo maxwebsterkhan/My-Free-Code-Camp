@@ -41,8 +41,6 @@
         top: 1px;
     }
 
-
-
     .flex-container {
         display: flex;
         justify-content: center;
@@ -62,13 +60,16 @@
     }
 
     #h1title {
-        font-size: 50px;
+        font-size: 70px;
+        margin-top: 80px;
+        font-family: 'Lato';
         text-align: center;
     }
 
     #h2title {
         text-align: center;
-        font-size: 40px;
+        margin-top: 80px;
+        font-size: 35px;
     }
 
     .introduction {
@@ -86,97 +87,106 @@
     }
 
     .navcontainer {
-        position: relative;
-        min-width: 13300px;
-        max-width: 1440px;
-        width: 100%;
-        margin: 0 auto;
-        background-size: cover;
+        background-color: #DBE2EF;
     }
 
-    
+    body {
+        background-color: #DBE2EF;
+        margin: 0px;
+    }
+
+    .foreground {
+        background-color: #f9f7f7;
+        margin: 0% 15% 0% 15%;
+    }
 </style>
 
 <!DOCTYPE html>
 <html>
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 
 <body>
-    <section id="welcome-section">
-        <div class="navcontainer">
-            <nav class="navbar">
-                <ul class="menu">
-                    <li><a class="nav-link" href="#welcome-section">Home</a></li>
-                    <li><a class="nav-link" href="#projects">Projects</a></li>
-                    <li><a class="nav-link" href="#contact">Contact</a></li>
-                    <h1 id="logo">M.W.K<i>portfolio</i></h1>
+    <div class="foreground">
+        <section id="welcome-section">
+            <div class="navcontainer">
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a class="nav-link" href="#welcome-section">Home│</a></li>
+                        <li><a class="nav-link" href="#projects">Projects│</a></li>
+                        <li><a class="nav-link" href="#contact">Contact│</a></li>
 
-                </ul>
-            </nav>
-        </div>
-    </section>
 
-    <section id="welcome-section">
-        <div class="introduction">
-            <h1 id="h1title">Hello, my name is Max.</h1>
-            <h2 id="h2title">Welcome to my portfolio!</h2>
-            <a href="https://codepen.io/maxwebster-khan" class="myButton">Find my projects here</a>
-        </div>
-        </div>
-    </section>
-    <section id="projects">
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section id="welcome-section">
+            <div class="introduction">
+                <h1 id="h1title">Hello, my name is Max.</h1>
+                <h2 id="h2title">this is my portfolio</h2>
+                <a href="https://codepen.io/maxwebster-khan" class="myButton">Find my projects here</a>
+            </div>
+
+        </section>
+        <section id="projects">
+            <br>
+            <div class="flex-container">
+                <div>
+                    <article class="project-tile">
+                        <a href="https://codepen.io/maxwebster-khan/pen/JgWjvy" target="_blank"> <img
+                                src="https://screenshot.codepen.io/3437741.JgWjvy.small.f768d8e7-7492-4604-90ba-4efd3e004cdc.png"
+                                alt="project1">
+                        </a>
+                    </article>
+                </div>
+                <br>
+
+                <div>
+                    <article class="project-tile">
+                        <a href="https://codepen.io/maxwebster-khan/pen/XvedLq" target="_blank"> <img
+                                src="https://screenshot.codepen.io/3437741.XvedLq.small.c92cb7d2-252c-432b-856b-fef6f61844b1.png"
+                                alt="project2"></a>
+                    </article>
+                </div>
+                <br>
+                <div>
+                    <article class="project-tile">
+                        <a href="https://codepen.io/maxwebster-khan/pen/NQyQXj" target="_blank"> <img
+                                src="https://screenshot.codepen.io/3437741.NQyQXj.small.6abf8137-9071-45e0-8c4b-b7c7b1c9df1d.png"
+                                alt="project3"></a>
+                    </article>
+                </div>
+                <br>
+                <div>
+                    <article class="project-tile">
+                        <a href="https://codepen.io/maxwebster-khan/pen/rXWEXY" target="_blank"> <img
+                                src="https://screenshot.codepen.io/3437741.rXWEXY.small.8701c36d-bccc-4c20-8646-caf3c31da35d.png"
+                                alt="project4"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
         <br>
-        <div class="flex-container">
-            <div>
-                <article class="project-tile">
-                    <a href="https://codepen.io/maxwebster-khan/pen/JgWjvy" target="_blank"> <img
-                            src="https://screenshot.codepen.io/3437741.JgWjvy.small.f768d8e7-7492-4604-90ba-4efd3e004cdc.png"
-                            alt="project1">
-                    </a>
-                </article>
-            </div>
-            <br>
+        <br>
+        <section id="contact">
+            <article class="worklink">
+                <a href="https://github.com/MaxWebster-Khan/My-Free-Code-Camp" target="_black"> <img
+                        src="https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-19/288981919427_f45f04edd92902a96859_512.png"
+                        width="25px" height="20px">
+            </article>
+            </a>
 
-            <div>
-                <article class="project-tile">
-                    <a href="https://codepen.io/maxwebster-khan/pen/XvedLq" target="_blank"> <img
-                            src="https://screenshot.codepen.io/3437741.XvedLq.small.c92cb7d2-252c-432b-856b-fef6f61844b1.png"
-                            alt="project2"></a>
-                </article>
-            </div>
-            <br>
-            <div>
-                <article class="project-tile">
-                    <a href="https://codepen.io/maxwebster-khan/pen/NQyQXj" target="_blank"> <img
-                            src="https://screenshot.codepen.io/3437741.NQyQXj.small.6abf8137-9071-45e0-8c4b-b7c7b1c9df1d.png"
-                            alt="project3"></a>
-                </article>
-            </div>
-            <br>
-            <div>
-                <article class="project-tile">
-                    <a href="https://codepen.io/maxwebster-khan/pen/rXWEXY" target="_blank"> <img
-                            src="https://screenshot.codepen.io/3437741.rXWEXY.small.8701c36d-bccc-4c20-8646-caf3c31da35d.png"
-                            alt="project4"></a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <section id="contact">
-        <article class="worklink">
-            <a href="https://github.com/MaxWebster-Khan/My-Free-Code-Camp" target="_black"> <img
-                    src="https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-19/288981919427_f45f04edd92902a96859_512.png">
-        </article>
-        </a>
-        <article class="worklink">
-            <a href="https://www.freecodecamp.org/maxwebster-khan"> <img
-                    src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362_400x400.png"></a>
-        </article>
-    </section>
+            <article class="worklink">
+                <a href="https://www.freecodecamp.org/maxwebster-khan"> <img
+                        src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362_400x400.png" width="25px"
+                        height="20px"></a>
+            </article>
+        </section>
+    </div>
 </body>
