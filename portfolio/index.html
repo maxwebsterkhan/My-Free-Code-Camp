@@ -74,7 +74,8 @@
     .introduction {
         text-align: center;
         font-family: 'Lato';
-
+        display: block;
+        height: 50vh;
     }
 
     article {
@@ -85,10 +86,6 @@
         display: flex;
         list-style: none;
         justify-content: center;
-    }
-
-    .navcontainer {
-        margin: 0% 15% 0% 15%;
     }
 
     body {
@@ -105,7 +102,22 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        justify-content: space-evenly;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        color: white;
+        font-size: 20px;
+        margin: 2% 15% 0% 15%;
+        background-color: #f9f7f7;
+        font-family: 'Lato';
     }
 </style>
 
@@ -114,24 +126,20 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
 </head>
 
 <body>
     <div class="foreground">
         <section id="welcome-section">
-            <div class="navcontainer">
-                <nav id="navbar">
-                    <ul class="menu">
-                        <li><a class="nav-link" href="#welcome-section">Home│</a></li>
-                        <li><a class="nav-link" href="#projects">Projects│</a></li>
-                        <li><a class="nav-link" href="#contact">Contact│</a></li>
 
-
-                    </ul>
-                </nav>
-            </div>
+            <navigation id="navbar">
+                <ul class="menu">
+                    <li><a class="nav-link" href="#welcome-section">Home│</a></li>
+                    <li><a class="nav-link" href="#projects">Projects│</a></li>
+                    <li><a class="nav-link" href="#contact">Contact│</a></li>
+                </ul>
+            </navigation>
         </section>
 
         <section id="welcome-section">
