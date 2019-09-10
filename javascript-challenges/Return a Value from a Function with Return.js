@@ -10,4 +10,3 @@ function timesFive(num) {
 }
 
 console.log(minusSeven(10));
-console.log(c);

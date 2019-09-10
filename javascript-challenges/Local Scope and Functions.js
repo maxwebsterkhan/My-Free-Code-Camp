@@ -4,7 +4,7 @@ function myLocalScope() {
   console.log(myVar);
 }
 myLocalScope();
-console.log(c);
+
 // Run and check the console
 // myVar is not defined outside of myLocalScope
 

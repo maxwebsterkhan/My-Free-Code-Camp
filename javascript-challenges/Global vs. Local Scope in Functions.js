@@ -10,4 +10,3 @@ var  outerWear = "sweater";
 }
 
 myOutfit();
-console.log(c);

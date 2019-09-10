@@ -12,4 +12,3 @@ function addFive() {
 
 // Only change code above this line
 var returnedValue = addFive();
-console.log(c);

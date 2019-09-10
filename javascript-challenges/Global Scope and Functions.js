@@ -17,4 +17,3 @@ function fun2() {
   }
   console.log(output);
 }
-console.log(c);

@@ -7,5 +7,7 @@ function testEqual(val) {
 }
 
 // Change this value to test
-testEqual(11);
-console.log(c); 
+var tenNotEqual=testEqual(10);
+var twelveEqual=testEqual(12);
+console.log("10 is "+ tenNotEqual + " to 12"); 
+console.log("12 is "+ twelveEqual + " to 12"); 

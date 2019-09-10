@@ -8,4 +8,3 @@ result+= "My "+myAdjective+" "+myNoun+" "+myVerb+" very "+myAdverb+".";
 
 // Change the words here to test your function
 wordBlanks ("dog", "big", "ran", "quickly"); 
-console.log(c);

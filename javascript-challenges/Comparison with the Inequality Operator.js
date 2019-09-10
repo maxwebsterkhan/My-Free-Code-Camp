@@ -7,4 +7,7 @@ function testNotEqual(val) {
 }
 
 // Change this value to test
-testNotEqual(10);
+var notEqual= testNotEqual(10);
+var equal= testNotEqual(99);
+console.log("10 is "+ notEqual + " to 99"); 
+console.log("99 is "+ equal + " to 99"); 
