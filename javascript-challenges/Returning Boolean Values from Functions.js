@@ -1,6 +1,6 @@
 function isLess(a, b) {
-  // Fix this code
-return a <= b;
+    // Fix this code
+    return a <= b;
 }
 
 // Change these values to test
