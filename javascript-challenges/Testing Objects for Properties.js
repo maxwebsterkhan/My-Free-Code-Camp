@@ -11,7 +11,6 @@ function checkObj(checkProp) {
     }
     else {
         return "Not Found"
-        return "Change Me!";
     }
 }
 // Test your code by modifying these values
