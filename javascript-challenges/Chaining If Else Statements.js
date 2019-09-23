@@ -7,14 +7,14 @@ function testSize(num) {
     return "Small";
   }
   else if (num < 15) {
-  return "Medium";
-}
-else if (num < 20) {
-  return "Large";
-}
-else {
-  return "Huge";
-}
+    return "Medium";
+  }
+  else if (num < 20) {
+    return "Large";
+  }
+  else {
+    return "Huge";
+  }
   // Only change code above this line
 }
 
