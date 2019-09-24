@@ -32,14 +32,14 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 function updateRecords(id, prop, value) {
     var record = collection[id]
     if (prop === "tracks" && record["tracks"] == undefined) {
-        record[prop] = [];
+        record["tracks"] = [];
     }
     if (value === "") {
         return collection;
     }
     if (prop !== "tracks") {
         record[prop] = value;
-    } else if (prop == "tracks" && value !== "") {
+    } else if (prop === "tracks" && value !== "") {
         record[prop].push(value);
     }
 
