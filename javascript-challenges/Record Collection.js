@@ -42,7 +42,9 @@ function updateRecords(id, prop, value) {
     } else if (prop === "tracks" && value !== "") {
         record[prop].push(value);
     }
-
+    else if (value == "") {
+        delete collection[id][prop];
+      }
 
 
 
