@@ -43,10 +43,9 @@ function updateRecords(id, prop, value) {
         record[prop].push(value);
     }
     else if (value == "") {
-        delete collection[id][prop];
+        delete album[prop];
       }
-     if (prop === "tracks" && record["tracks"] == "") 
-delete collection[id][prop];
+
 
     return collection;
 
