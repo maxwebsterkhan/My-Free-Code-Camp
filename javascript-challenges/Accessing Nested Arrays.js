@@ -1,6 +1,6 @@
 // Setup
 var myPlants = [
-  { 
+  {
     type: "flowers",
     list: [
       "rose",
@@ -15,7 +15,7 @@ var myPlants = [
       "pine",
       "birch"
     ]
-  }  
+  }
 ];
 
 // Only change code below this line
