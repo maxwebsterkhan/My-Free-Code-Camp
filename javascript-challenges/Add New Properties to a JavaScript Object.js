@@ -17,4 +17,4 @@ var myDog = {
 };
 
 // Only change code below this line.
-myDog.bark ="woof";
+myDog.bark = "woof";
