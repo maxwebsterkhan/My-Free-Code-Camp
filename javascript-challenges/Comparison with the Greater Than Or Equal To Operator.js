@@ -11,4 +11,4 @@ function testGreaterOrEqual(val) {
 }
 
 // Change this value to test
-testGreaterOrEqual(9);
+console.log(testGreaterOrEqual(9));
