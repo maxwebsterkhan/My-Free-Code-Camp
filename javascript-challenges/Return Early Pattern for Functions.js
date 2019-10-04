@@ -10,4 +10,4 @@ function abTest(a, b) {
 }
 
 // Change values below to test your code
-abTest(2, 2);
+console.log(abTest(2, 2));
