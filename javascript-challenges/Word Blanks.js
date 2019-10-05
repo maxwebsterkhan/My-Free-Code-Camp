@@ -7,4 +7,4 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 }
 
 // Change the words here to test your function
-wordBlanks("dog", "big", "ran", "quickly"); 
+conesol.log (wordBlanks("dog", "big", "ran", "quickly")); 
