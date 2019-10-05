@@ -28,4 +28,4 @@ function sequentialSizes(val) {
 }
 
 // Change this value to test
-sequentialSizes(1);
+console.log(sequentialSizes(1));
