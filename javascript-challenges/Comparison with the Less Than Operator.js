@@ -11,4 +11,4 @@ function testLessThan(val) {
 }
 
 // Change this value to test
-testLessThan(10);
+console.log(testLessThan(10));
