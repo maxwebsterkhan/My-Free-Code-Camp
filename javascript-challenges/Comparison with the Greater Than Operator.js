@@ -11,4 +11,4 @@ function testGreaterThan(val) {
 }
 
 // Change this value to test
-testGreaterThan(10);
+console.log(testGreaterThan(10));
