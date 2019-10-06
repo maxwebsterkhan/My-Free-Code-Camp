@@ -24,4 +24,4 @@ function switchOfStuff(val) {
 }
 
 // Change this value to test
-switchOfStuff(1);
+console.log(switchOfStuff(1));
