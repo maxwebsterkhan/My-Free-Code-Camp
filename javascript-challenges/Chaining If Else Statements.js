@@ -19,4 +19,4 @@ function testSize(num) {
 }
 
 // Change this value to test
-testSize(0);
+console.log(testSize(0));
