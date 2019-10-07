@@ -11,4 +11,4 @@ function testLogicalOr(val) {
 }
 
 // Change this value to test
-testLogicalOr(15);
+console.log(testLogicalOr(15));
