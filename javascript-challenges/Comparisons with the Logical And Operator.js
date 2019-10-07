@@ -9,4 +9,4 @@ function testLogicalAnd(val) {
   return "No";
 }
 // Change this value to test
-testLogicalAnd(25);
+console.log(testLogicalAnd(25));
