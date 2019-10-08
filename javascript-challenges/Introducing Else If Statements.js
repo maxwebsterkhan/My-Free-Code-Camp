@@ -11,4 +11,4 @@ function testElseIf(val) {
 }
 
 // Change this value to test
-testElseIf(7);
+console.log(testElseIf(7));
