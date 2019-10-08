@@ -11,4 +11,4 @@ function testLessOrEqual(val) {
 }
 
 // Change this value to test
-testLessOrEqual(10);
+console.log(testLessOrEqual(10));
