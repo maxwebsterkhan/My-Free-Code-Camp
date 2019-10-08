@@ -15,4 +15,4 @@ function testElse(val) {
 }
 
 // Change this value to test
-testElse(4);
+console.log(testElse(4));
