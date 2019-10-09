@@ -21,4 +21,4 @@ function trueOrFalse(wasThatTrue) {
 }
 
 // Change this value to test
-trueOrFalse(false);
+console.log(trueOrFalse(false));
