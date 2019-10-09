@@ -19,4 +19,4 @@ function phoneticLookup(val) {
 }
 
 // Change this value to test
-phoneticLookup("charlie");
+console.log(phoneticLookup("charlie"));
