@@ -19,4 +19,4 @@ function caseInSwitch(val) {
 }
 
 // Change this value to test
-caseInSwitch(1);
+console.log(caseInSwitch(1));
