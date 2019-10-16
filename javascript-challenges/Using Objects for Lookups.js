@@ -13,7 +13,6 @@ function phoneticLookup(val) {
         "foxtrot": "Frank"
     };
     result = lookup[val];
-
     // Only change code above this line
     return result;
 }
