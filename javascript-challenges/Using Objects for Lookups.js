@@ -16,6 +16,5 @@ function phoneticLookup(val) {
     // Only change code above this line
     return result;
 }
-
 // Change this value to test
 console.log(phoneticLookup("charlie"));
