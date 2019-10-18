@@ -17,6 +17,5 @@ function caseInSwitch(val) {
     }
     return answer;
 }
-
 // Change this value to test
 console.log(caseInSwitch(1));
