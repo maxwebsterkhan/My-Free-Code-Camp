@@ -18,10 +18,8 @@ function chainToSwitch(val) {
       answer = "Ate Nine";
       break;
   }
-
   // Only change code above this line  
   return answer;
 }
-
 // Change this value to test
 chainToSwitch(7);
