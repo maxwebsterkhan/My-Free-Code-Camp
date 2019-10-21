@@ -12,7 +12,6 @@ var myMusic = [
     },
     // Add record here
     {
-
         "artist": "Eminem",
         "title": "Killshot",
         "release_year": 2018,
