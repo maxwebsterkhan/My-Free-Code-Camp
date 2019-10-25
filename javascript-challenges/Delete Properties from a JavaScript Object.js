@@ -6,9 +6,7 @@ var ourDog = {
   "friends": ["everything!"],
   "bark": "bow-wow"
 };
-
 delete ourDog.bark;
-
 // Setup
 var myDog = {
   "name": "Happy Coder",
@@ -17,6 +15,5 @@ var myDog = {
   "friends": ["freeCodeCamp Campers"],
   "bark": "woof"
 };
-
 // Only change code below this line.
 delete myDog.tails;
