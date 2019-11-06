@@ -21,7 +21,7 @@ let round = 0;
 //Best out of 5.
 while ((playersScore < 3) && (computersScore < 3)) {
     playRound();
-    console.log(playerScore, computerScore, draw);
+    console.log(playersScore, computersScore, draw);
 }
 // Round 1.
 function playRound() {
@@ -29,12 +29,12 @@ function playRound() {
     let playerSelection = prompt("Rock, paper or scissors?").toLowerCase()
     if (playerSelection === "rock") {
         if (computerSelection === "paper") {
-            computerScore++;
+            computersScore++;
             console.log("You've lost this round!");
             return ("You've lost this round!");
         }
         else if (computerSelection === "scissors") {
-            playerScore++;
+            playersScore++;
             console.log("You've won this round!");
             return ("You've won this round!");
         }
@@ -44,12 +44,12 @@ function playRound() {
     }
     if (playerSelection === "paper") {
         if (computerSelection === "scissors") {
-            computerScore++;
+            computersScore++;
             console.log("You've lost this round!");
             return ("You've lost this round!");
         }
         else if (computerSelection === "rock") {
-            playerScore++
+            playersScore++
             console.log("You've won this round!");
             return ("You've won this round!");
         }
@@ -59,12 +59,12 @@ function playRound() {
     }
     if (playerSelection === "scissors") {
         if (computerSelection === "rock") {
-            computerScore++;
+            computersScore++;
             console.log("You've lost this round!");
             return ("You've lost this round!");
         }
         else if (computerSelection === "paper") {
-            playerScore++;
+            playersScore++;
             console.log("You've lost this round!");
             return ("You've lost this round!");
         }
@@ -75,7 +75,7 @@ function playRound() {
 }
 //function to declane winner
 function gameWin() {
-    if (playerScore < computerScore) {
+    if (playersScore < computersScore) {
         console.log("You've lost the game");
         return ("You've lost the game")
     }
