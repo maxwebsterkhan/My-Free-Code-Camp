@@ -12,18 +12,17 @@ function computersPlay() {
             return "Scissors";
     }
 };
-
+//Tally of points scored.
 let playersScore = 0;
 let computersScore = 0;
 let draw = 0;
 let round = 0;
-
 //Best out of 5.
 while ((playersScore < 3) && (computersScore < 3)) {
     playRound();
     console.log(playersScore, computersScore, draw);
 }
-// Round 1.
+// First round played.
 function playRound() {
     let computerSelection = computersPlay();
     let playerSelection = prompt("Rock, paper or scissors?").toLowerCase()
@@ -73,7 +72,7 @@ function playRound() {
         return ("It's a tie!");
     }
 }
-//function to declane winner
+//function to declare winner
 function gameWin() {
     if (playersScore < computersScore) {
         console.log("You've lost the game");
